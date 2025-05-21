@@ -52,21 +52,36 @@ The data was cleaned in Excel using filters, standardization, and missing value 
 
 ## Key Findings
 
-### 1.  Outlet Type + Fat Content
+### 1. Outlet Type + Fat Content
 - **Supermarket Type 1** had the highest sales across both Low Fat and Regular items  
-- Consistently strong performer, ideal for format expansion 
+- Consistently strong performer, ideal for format expansion
+
+![Outlet Type and Fat Content](https://github.com/IrinaOrias/Outlet-Performance-Analysis/blob/main/images/Outlet_fat_content.PNG?raw=true)
+
+---
 
 ### 2. Product Type Performance
 - **Top-selling categories**: Fruits and Vegetables, Snack Foods, Household, Frozen Foods  
 - **Lowest-performing categories**: Seafood, Hard Drinks, Breakfast Items
 
+![Product Type Performance](https://github.com/IrinaOrias/Outlet-Performance-Analysis/blob/main/images/product_type.PNG?raw=true)
+
+---
+
 ### 3. Outlet Establishment Year
 - Highest total sales came from outlets opened in **1998, 2010, and 2012**  
 - **Newer outlets** (post-2015) underperformed in comparison
 
+![Outlet Establishment Year](https://github.com/IrinaOrias/Outlet-Performance-Analysis/blob/main/images/establishment_year.PNG?raw=true)
+
+---
+
 ### 4. Outlet Location Performance
 - **Tier 3** stores outperformed Tier 1 and Tier 2 stores  
 - Indicates high demand and market opportunity in smaller urban zones
+
+![Outlet Location Performance](https://github.com/IrinaOrias/Outlet-Performance-Analysis/blob/main/images/Location%20Perfomance.PNG?raw=true)
+
 
 
 ---

@@ -1,135 +1,123 @@
 # Blinkit Data Exploration – Outlet Performance Analysis
 
----
-
 ## Executive Summary
 
-This report provides a comprehensive overview of retail outlet performance using transactional sales data.  
-Using SQL and Excel, I explored total revenue, product performance, outlet characteristics, and customer behavior.
+This report provides a comprehensive overview of grocery retail outlet performance using transactional sales data. Using SQL and Excel, I explored total sales, outlet characteristics, product demand, and customer preferences.
 
-**The analysis revealed:**
-- Over **1.2 million** in total sales, with **1,559 unique items** sold and an **average transaction value of $140.99**
-- Strong customer preference for **Low Fat** products
-- High-performing outlet types like **Supermarket Type 1**, and strong engagement in **Tier 3** locations
-- Clear trends in outlet performance by **size** and **establishment year**
-- Opportunities to optimize **product offerings**, **regional strategies**, and **outlet formats**
+The analysis revealed:
+- Over **$1.2 million** in total sales, with **1,559 unique items** and an **average sale value of $140.99**
+- Strong customer preference for **Low Fat** products and essential categories like **Fruits and Vegetables**
+- High-performing formats such as **Supermarket Type 1**, and strongest regional performance in **Tier 3 locations**
+- Clear patterns in sales by **outlet size and establishment year**
+- Key opportunities to optimize outlet strategy, inventory planning, and product promotion
 
-These insights can guide operational improvements, marketing campaigns, and outlet development strategies.
+These insights can support strategic decisions across operations, marketing, and expansion planning.
 
 ---
 
 ## Objective
 
-The objective of this project was to evaluate the performance of various retail outlets based on business dimensions such as item type, outlet size, location, year of establishment, and customer preferences.
+The objective of this project was to evaluate the sales and operational performance of a grocery retail chain through an in-depth analysis of item- and outlet-level metrics.
 
-The analysis was conducted using SQL for data aggregation and Excel for data cleaning and visualization.  
-The findings support data-driven decisions in outlet expansion, product planning, and targeted marketing.
+I used SQL to calculate KPIs and segment sales data, and Excel to clean the dataset and build visualizations.  
+The findings aim to inform decisions around **outlet optimization**, **category management**, and **regional investment**.
 
 ---
 
 ## Data Overview
 
-The analysis is based on a transactional dataset simulating grocery retail activity across multiple store formats.  
-Each row represents the sale of a product at a specific outlet, along with related attributes describing the item, the store, and the sales result.
+The dataset contains over **8,000 transactional records**, representing product sales across different outlet types, sizes, and locations. Each row corresponds to the sale of a product in a specific store, with detailed item and outlet attributes.
 
-**Source Dataset:**  
-[Download from Google Drive](https://drive.usercontent.google.com/download?id=1EdSbZUdL9852dLdq14HgYfToQqymtBl-&export=download)
+[**Download Dataset from Google Drive**](https://drive.usercontent.google.com/download?id=1EdSbZUdL9852dLdq14HgYfToQqymtBl-&export=download)
 
-### Key Features of the Dataset:
+### Key Fields in the Dataset:
+- `Item_Identifier`: Unique product ID  
+- `Item_Type`: Product category (e.g., Snacks, Household, Frozen Foods)  
+- `Item_Fat_Content`: Nutritional category (Low Fat, Regular)  
+- `Item_Visibility`: Shelf visibility as a percentage  
+- `Item_MRP`: Product price  
 
-#### Product-Level Fields:
-- `Item_Identifier`: Unique code for each product  
-- `Item_Weight`: Weight in kilograms  
-- `Item_Fat_Content`: Nutritional classification (e.g., Low Fat, Regular)  
-- `Item_Visibility`: Percentage visibility in the store (shelf exposure)  
-- `Item_Type`: Product category (e.g., Dairy, Fruits and Vegetables, Snacks)  
-- `Item_MRP`: Maximum retail price
+- `Outlet_Identifier`: Unique outlet ID  
+- `Outlet_Establishment_Year`: Year store opened  
+- `Outlet_Size`: Store size (Small, Medium, High)  
+- `Outlet_Location_Type`: Tier classification (1, 2, or 3)  
+- `Outlet_Type`: Store format (e.g., Supermarket Type 1)
 
-#### Outlet-Level Fields:
-- `Outlet_Identifier`: Unique store ID  
-- `Outlet_Establishment_Year`: Year the store began operations  
-- `Outlet_Size`: Store size category (Small, Medium, High)  
-- `Outlet_Location_Type`: Geographic classification (Tier 1, Tier 2, Tier 3)  
-- `Outlet_Type`: Format of store (e.g., Supermarket Type 1, Grocery Store)
+- `Item_Outlet_Sales`: Sales amount per item per store  
+- `Rating`: Customer satisfaction score (optional)
 
-#### Sales & Rating:
-- `Item_Outlet_Sales`: Total sales of each item at that outlet  
-- `Rating`: Customer rating (where available)
-
-### Data Preparation Process:
-- Standardized inconsistent entries in `Item_Fat_Content` (e.g., "low fat" vs "Low Fat")
-- Handled missing values in `Item_Weight` and `Outlet_Size`
-- Created new groupings for analysis: fat content segments, outlet size %, location tiers
-- Removed outliers in visibility and formatted values for readability
-- Prepared clean pivot tables and visualizations in Excel
-
----
-
-## Key Performance Indicators (KPIs)
-
-1. **Total Sales**: Cumulative item revenue  
-2. **Average Sales**: Mean sales per transaction or product  
-3. **Number of Items**: Count of unique product identifiers  
-4. **Average Rating**: Overall customer satisfaction
-
----
-
-## Granular Metrics
-
-1. **Total Sales by Fat Content**  
-2. **Total Sales by Item Type**  
-3. **Fat Content by Outlet Location for Total Sales**  
-4. **Total Sales by Outlet Establishment Year**  
-5. **Percentage of Sales by Outlet Size**  
-6. **Sales by Outlet Location**  
-7. **All Metrics by Outlet Type**
+The data was cleaned in Excel using filters, standardization, and missing value treatment. SQL was then used for all calculations and aggregations.
 
 ---
 
 ## Key Findings
 
 ### 1. Fat Content Preferences
-- Low Fat products significantly outperformed Regular ones  
-- Consumers favor healthier choices
+- **Low Fat products** generated significantly more revenue than Regular items  
+- Health-conscious purchasing behavior is clearly present
+
+---
 
 ### 2. Product Type Performance
-- Top-selling: Fruits and Vegetables, Snack Foods, Household, Frozen Foods  
-- Underperformers: Seafood, Hard Drinks, Breakfast Items
+- **Top-selling categories**: Fruits and Vegetables, Snack Foods, Household, Frozen Foods  
+- **Lowest-performing categories**: Seafood, Hard Drinks, Breakfast Items
+
+---
 
 ### 3. Outlet Establishment Year
-- Outlets from 1998, 2010, and 2012 generated the most revenue  
-- Newer outlets showed weaker performance
+- Highest total sales came from outlets opened in **1998, 2010, and 2012**  
+- **Newer outlets** (post-2015) underperformed in comparison
+
+---
 
 ### 4. Outlet Location Performance
-- Tier 3 locations outperformed Tier 2 and Tier 1  
-- Strong demand observed in non-urban areas
+- **Tier 3** stores outperformed Tier 1 and Tier 2 stores  
+- Indicates high demand and market opportunity in smaller urban zones
 
-### 5. Outlet Size Efficiency
-- Medium outlets = 42% of total sales  
-- Large outlets = only 21%, underperforming by size
+---
 
-### 6. Outlet Type and Fat Content
-- Supermarket Type 1 dominates across both Low Fat and Regular products  
-- Strong candidate for expansion
+### 5. Sales by Outlet Size (Proportional Contribution)
+- **Medium outlets**: 42% of total sales  
+- **Small outlets**: 37%  
+- **High outlets**: 21%
+
+---
+
+### 6. Outlet Type + Fat Content
+- **Supermarket Type 1** had the highest sales across both Low Fat and Regular items  
+- Consistently strong performer, ideal for format expansion
 
 ---
 
 ## Recommendations and Action Points
 
-### 1. Expand Supermarket Type 1  
-- Focus on Tier 3 and high-growth locations  
-- Proven sales leader across product categories
+### 1. Expand Supermarket Type 1 Format
 
-### 2. Strengthen Medium Outlet Strategy  
-- Highest efficiency in revenue contribution  
-- Optimize and replicate this format
+**Observation:** Supermarket Type 1 consistently leads in sales across all segments  
+**Recommendation:** Focus future outlet openings in this format, especially in Tier 3 zones  
+**Action:** Use sales forecasting to identify ideal Tier 3 locations for growth
 
-### 3. Leverage Product Demand  
-- Promote Low Fat and essential categories  
-- Align inventory and marketing accordingly
+---
 
-### 4. Address Underperformance in New/Large Outlets  
-- Evaluate planning, staff readiness, and product mix  
-- Adjust strategies based on local demand
+### 2. Invest in Medium-Size Outlets
 
+**Observation:** Medium outlets generate the highest share of total revenue  
+**Recommendation:** Optimize this format in existing and upcoming locations  
+**Action:** Prioritize staffing, inventory, and marketing resources accordingly
+
+---
+
+### 3. Promote High-Demand Product Segments
+
+**Observation:** Low Fat products and essentials like fruits and snacks are bestsellers  
+**Recommendation:** Promote these items with special campaigns and bundles  
+**Action:** Highlight health-conscious categories and reinforce visibility in-store and online
+
+---
+
+### 4. Reevaluate New and Large Outlets
+
+**Observation:** Newer and larger formats show weaker performance  
+**Recommendation:** Audit operations, location selection, and local product fit  
+**Action:** Use dashboard filters to monitor underperformers and test targeted improvements
 

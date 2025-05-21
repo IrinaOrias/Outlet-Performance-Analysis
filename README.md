@@ -52,17 +52,13 @@ The data was cleaned in Excel using filters, standardization, and missing value 
 
 ## Key Findings
 
-### 1. Fat Content Preferences
-- **Low Fat products** generated significantly more revenue than Regular items  
-- Health-conscious purchasing behavior is clearly present
-
----
+### 1.  Outlet Type + Fat Content
+- **Supermarket Type 1** had the highest sales across both Low Fat and Regular items  
+- Consistently strong performer, ideal for format expansion 
 
 ### 2. Product Type Performance
 - **Top-selling categories**: Fruits and Vegetables, Snack Foods, Household, Frozen Foods  
 - **Lowest-performing categories**: Seafood, Hard Drinks, Breakfast Items
-
----
 
 ### 3. Outlet Establishment Year
 - Highest total sales came from outlets opened in **1998, 2010, and 2012**  
@@ -74,18 +70,6 @@ The data was cleaned in Excel using filters, standardization, and missing value 
 - **Tier 3** stores outperformed Tier 1 and Tier 2 stores  
 - Indicates high demand and market opportunity in smaller urban zones
 
----
-
-### 5. Sales by Outlet Size (Proportional Contribution)
-- **Medium outlets**: 42% of total sales  
-- **Small outlets**: 37%  
-- **High outlets**: 21%
-
----
-
-### 6. Outlet Type + Fat Content
-- **Supermarket Type 1** had the highest sales across both Low Fat and Regular items  
-- Consistently strong performer, ideal for format expansion
 
 ---
 
@@ -94,30 +78,16 @@ The data was cleaned in Excel using filters, standardization, and missing value 
 ### 1. Expand Supermarket Type 1 Format
 
 **Observation:** Supermarket Type 1 consistently leads in sales across all segments  
-**Recommendation:** Focus future outlet openings in this format, especially in Tier 3 zones  
-**Action:** Use sales forecasting to identify ideal Tier 3 locations for growth
-
----
 
 ### 2. Invest in Medium-Size Outlets
 
 **Observation:** Medium outlets generate the highest share of total revenue  
-**Recommendation:** Optimize this format in existing and upcoming locations  
-**Action:** Prioritize staffing, inventory, and marketing resources accordingly
-
----
 
 ### 3. Promote High-Demand Product Segments
 
 **Observation:** Low Fat products and essentials like fruits and snacks are bestsellers  
-**Recommendation:** Promote these items with special campaigns and bundles  
-**Action:** Highlight health-conscious categories and reinforce visibility in-store and online
-
----
 
 ### 4. Reevaluate New and Large Outlets
 
 **Observation:** Newer and larger formats show weaker performance  
-**Recommendation:** Audit operations, location selection, and local product fit  
-**Action:** Use dashboard filters to monitor underperformers and test targeted improvements
 

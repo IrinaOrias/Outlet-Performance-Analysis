@@ -64,8 +64,6 @@ The data was cleaned in Excel using filters, standardization, and missing value 
 - Highest total sales came from outlets opened in **1998, 2010, and 2012**  
 - **Newer outlets** (post-2015) underperformed in comparison
 
----
-
 ### 4. Outlet Location Performance
 - **Tier 3** stores outperformed Tier 1 and Tier 2 stores  
 - Indicates high demand and market opportunity in smaller urban zones

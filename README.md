@@ -30,23 +30,31 @@ The dataset contains over **8,000 transactional records**, representing product 
 
 [**Download Dataset from Google Drive**](https://drive.usercontent.google.com/download?id=1EdSbZUdL9852dLdq14HgYfToQqymtBl-&export=download)
 
-### Key Fields in the Dataset:
-- `Item_Identifier`: Unique product ID  
-- `Item_Type`: Product category (e.g., Snacks, Household, Frozen Foods)  
-- `Item_Fat_Content`: Nutritional category (Low Fat, Regular)  
-- `Item_Visibility`: Shelf visibility as a percentage  
-- `Item_MRP`: Product price  
+### Dataset Overview
 
-- `Outlet_Identifier`: Unique outlet ID  
-- `Outlet_Establishment_Year`: Year store opened  
-- `Outlet_Size`: Store size (Small, Medium, High)  
-- `Outlet_Location_Type`: Tier classification (1, 2, or 3)  
-- `Outlet_Type`: Store format (e.g., Supermarket Type 1)
 
-- `Item_Outlet_Sales`: Sales amount per item per store  
-- `Rating`: Customer satisfaction score (optional)
+#### **Product Details**
+The dataset captures key product attributes such as:
 
-The data was cleaned in Excel using filters, standardization, and missing value treatment. SQL was then used for all calculations and aggregations.
+- **`Item_Identifier`** – a unique product ID  
+- **`Item_Type`** – product category (e.g., Snacks, Household)  
+- **`Item_Fat_Content`** – nutritional label (Low Fat or Regular)  
+- **`Item_Visibility`** – shelf display percentage  
+- **`Item_MRP`** – product price  
+
+
+#### **Store Information**
+It also includes store-level information:
+
+- **`Outlet_Identifier`** – unique store ID  
+- **`Outlet_Establishment_Year`** – year the store was established  
+- **`Outlet_Size`** – size classification (Small, Medium, High)  
+- **`Outlet_Location_Type`** – location tier (1, 2, or 3)  
+- **`Outlet_Type`** – store format (e.g., Supermarket Type 1)  
+
+#### **Data Preparation**
+Data was initially **cleaned in Excel** using filters, standardization, and missing value treatment.  
+It was then **analyzed in SQL** for calculations, aggregations, and insights.
 
 ---
 
@@ -86,21 +94,16 @@ The data was cleaned in Excel using filters, standardization, and missing value 
 
 ---
 
-## Recommendations and Action Points
+### Recommendations
 
-### 1. Expand Supermarket Type 1 Format
+### 1. **Expand Supermarket Type 1 Format**  
+Open at least three new Supermarket Type 1 outlets in regions where sales of both Low Fat and Regular items are consistently strong. Use sales data to guide expansion and aim to complete rollout within 12 months.
 
-**Observation:** Supermarket Type 1 consistently leads in sales across all segments  
+### 2. **Boost High-Performing Product Categories**  
+Prioritize inventory and promotion for top categories like Fruits & Vegetables, Snack Foods, Household, and Frozen Foods. Set a target to increase their combined sales by 15% over the next two quarters.
 
-### 2. Invest in Medium-Size Outlets
+### 3. **Support Underperforming New Outlets**  
+Conduct an audit of outlets opened after 2015 to identify gaps in product mix or customer reach. Implement targeted changes to improve their sales by 10% within six months.
 
-**Observation:** Medium outlets generate the highest share of total revenue  
-
-### 3. Promote High-Demand Product Segments
-
-**Observation:** Low Fat products and essentials like fruits and snacks are bestsellers  
-
-### 4. Reevaluate New and Large Outlets
-
-**Observation:** Newer and larger formats show weaker performance  
-
+### 4. **Invest in Tier 3 Locations**  
+Tier 3 stores show the highest performance, indicating strong local demand. Focus marketing and possible store openings in these zones, aiming for a 20% increase in sales or two new store launches by year-end.

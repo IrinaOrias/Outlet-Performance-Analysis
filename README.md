@@ -62,35 +62,23 @@ It was then **analyzed in SQL** for calculations, aggregations, and insights.
 
 ### 1. A Few Product Categories Drive Most of the Sales
 
-**Insight:**  
 Fruits & Vegetables, Snack Foods, Household, and Frozen Foods contribute over 60% of total revenue. In contrast, Seafood, Hard Drinks, and Breakfast Items generate less than 5% combined.
 
-**Implication:**  
-Shift shelf space, marketing, and inventory budgets toward high-performing categories. Underperforming ones should be reviewed for potential delisting or rebranding.
 
 ### 2. Supermarket Type 1 Dominates in Sales Performance
 
-**Insight:**  
 Supermarket Type 1 leads all other formats in total sales, indicating a successful combination of store layout, product variety, and customer engagement.
 
-**Implication:**  
-This format is a high-performing model suitable for scale. Future openings should prioritize replicating its layout and operational model.
 
 ### 3. Older Outlets Perform Better Than Newer Ones
 
-**Insight:**  
 Outlets established before 2015 (notably 1998, 2010, and 2012) show significantly stronger sales than newer outlets, which have yet to catch up in performance.
 
-**Implication:**  
-Newer stores should be audited to identify performance blockers — such as poor location, product mix, or marketing gaps — and corrected within a defined timeline.
 
 ### 4. Tier 3 Locations Offer the Greatest Revenue Potential
 
-**Insight:**  
 Tier 3 outlets outperform Tier 1 and 2 in both total and average sales, revealing high demand in smaller urban or semi-urban markets.
 
-**Implication:**  
-Prioritize Tier 3 areas for future expansion, with marketing tailored to local preferences. These regions present high ROI with lower competitive saturation.
 
 ---
 

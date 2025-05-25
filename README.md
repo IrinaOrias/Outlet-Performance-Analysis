@@ -91,3 +91,11 @@ Tier 3 outlets outperform Tier 1 and 2 in both total and average sales, revealin
 3. Audit outlets opened after 2015 to identify performance gaps, and implement targeted improvements to increase their sales by at least 10% within six months.
 
 4. Prioritize Tier 3 areas for expansion and localized marketing, aiming for a 20% sales boost or at least two new store openings in these high-demand zones by year-end.
+
+---
+
+---
+
+## Conclusion
+
+This analysis transformed a complex dataset into actionable insights that support smarter retail decisions. By identifying high-performing outlet types, customer preferences, and hidden market opportunities, the project offers a strategic foundation for improving efficiency, aligning with consumer demand, and guiding future investments. The findings highlight the value of understanding business performance through structured exploration and thoughtful segmentation.

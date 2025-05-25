@@ -34,8 +34,6 @@ The dataset contains over **8,000 transactional records**, representing product 
 
 
 #### **Product Details**
-The dataset captures key product attributes such as:
-
 - **`Item_Identifier`** – a unique product ID  
 - **`Item_Type`** – product category (e.g., Snacks, Household)  
 - **`Item_Fat_Content`** – nutritional label (Low Fat or Regular)  
@@ -44,8 +42,6 @@ The dataset captures key product attributes such as:
 
 
 #### **Store Information**
-It also includes store-level information:
-
 - **`Outlet_Identifier`** – unique store ID  
 - **`Outlet_Establishment_Year`** – year the store was established  
 - **`Outlet_Size`** – size classification (Small, Medium, High)  
@@ -58,39 +54,39 @@ It was then **analyzed in SQL** for calculations, aggregations, and insights.
 
 ---
 
-## Key Findings
+##  Key Insights
 
-### 1. A Few Product Categories Drive Most of the Sales
+- **Top Product Categories**:  
+  *Fruits and Vegetables*, *Snack Foods*, and *Household* products lead in sales, reflecting strong customer preferences.
 
-Fruits & Vegetables, Snack Foods, Household, and Frozen Foods contribute over 60% of total revenue. In contrast, Seafood, Hard Drinks, and Breakfast Items generate less than 5% combined.
+- **Best Performing Outlet Type**:  
+  *Supermarket Type 1* shows outstanding sales performance compared to all other outlet types, indicating a highly effective store format.
 
+- **Sales by Establishment Year**:  
+  Outlets opened in **1998** are top performers, but recent years (2020–2022) also show consistent contribution, suggesting that newer outlets are viable.
 
-### 2. Supermarket Type 1 Dominates in Sales Performance
-
-Supermarket Type 1 leads all other formats in total sales, indicating a successful combination of store layout, product variety, and customer engagement.
-
-
-### 3. Older Outlets Perform Better Than Newer Ones
-
-Outlets established before 2015 (notably 1998, 2010, and 2012) show significantly stronger sales than newer outlets, which have yet to catch up in performance.
-
-
-### 4. Tier 3 Locations Offer the Greatest Revenue Potential
-
-Tier 3 outlets outperform Tier 1 and 2 in both total and average sales, revealing high demand in smaller urban or semi-urban markets.
-
+- **Location Type Trends**:  
+  **Tier 3 locations** account for the largest portion of sales (39%), outperforming Tier 2 (33%) and Tier 1 (28%).
 
 ---
 
-## Recommendations
+##  Recommendations
 
-1. Expand Supermarket Type 1 by opening at least three new outlets in high-performing regions, using sales data to guide location choice and completing the rollout within 12 months.
+1. **Expand Supermarket Type 1 in High-Performing Tiers**  
+   Launch **3 new Supermarket Type 1 outlets** in **Tier 3** zones within **12 months** to capture high demand. Use top-selling categories as anchor products.
 
-2. Increase sales of top categories (Fruits & Vegetables, Snack Foods, Household, Frozen Foods) by 15% over the next two quarters through focused inventory allocation and promotional efforts.
+2. **Boost Sales of High-Demand Categories**  
+   Increase inventory and promotional investment for *Fruits & Vegetables*, *Snack Foods*, and *Household* by **20%** to raise combined sales by **15%** over the next **2 quarters**.
 
-3. Audit outlets opened after 2015 to identify performance gaps, and implement targeted improvements to increase their sales by at least 10% within six months.
+3. **Review and Optimize Underperforming Formats**  
+   Evaluate the performance of *Supermarket Type 2 and 3* formats within **2 months** and implement improvements in layout or product mix at low-performing sites to increase sales by **10%** in **6 months**.
 
-4. Prioritize Tier 3 areas for expansion and localized marketing, aiming for a 20% sales boost or at least two new store openings in these high-demand zones by year-end.
+4. **Capitalize on Tier 3 Potential with Loyalty Programs**  
+   Roll out a loyalty or discount program in **Tier 3** regions by **Q3**, targeting a **25% increase in customer retention** by year-end.
+
+5. **Audit Recently Opened Stores for Optimization**  
+   Conduct a review of stores launched from **2020 to 2022**. Select **5 outlets** for layout reconfiguration and refine product assortments with the goal of lifting sales by **8–10%** within **3 months**.
+
 
 
 ---

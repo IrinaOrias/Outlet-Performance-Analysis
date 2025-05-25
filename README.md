@@ -92,7 +92,6 @@ Tier 3 outlets outperform Tier 1 and 2 in both total and average sales, revealin
 
 4. Prioritize Tier 3 areas for expansion and localized marketing, aiming for a 20% sales boost or at least two new store openings in these high-demand zones by year-end.
 
----
 
 ---
 

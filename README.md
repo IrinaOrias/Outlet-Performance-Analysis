@@ -54,6 +54,10 @@ It was then **analyzed in SQL** for calculations, aggregations, and insights.
 
 ---
 
+![Dashboard Blinkit](https://github.com/IrinaOrias/Outlet-Performance-Analysis/raw/main/dashboard%20blinkit.PNG)
+
+---
+
 ##  Key Insights
 
 - **Top Product Categories**:  
